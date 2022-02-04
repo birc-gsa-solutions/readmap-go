@@ -4,6 +4,12 @@
 
 package shared
 
-func Hello() string {
-	return "Hello World"
+import "fmt"
+
+func Preprocess(genome string) {
+	fmt.Println("Preprocessing:", genome)
+}
+
+func Readmap(genome, reads string, dist int) {
+	fmt.Println("Redmap genome", genome, "with", reads, "within distance", dist)
 }
